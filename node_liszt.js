@@ -69,4 +69,4 @@ module.exports = {first
                   ,pair
                   ,dig
                   ,inspect
-                  ,snitch};
+                  ,snitch}
