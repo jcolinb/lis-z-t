@@ -12,6 +12,14 @@ Billies(); // list('Joel')
 Billies('Ocean')(); // list('Joel' 'Ocean')
 ```
 
+A pipe constructor for function composition:
+
+```
+const hey = pipe(outOfDreams)(intoCar)(); // like list, a final call returns the pipe
+hey(you); // you're in my car
+pipe(outOfDreams)(intoCar)()(you); // or inline
+```
+
 All lists are immutable, for great good.
 
 don't fear the recur.
